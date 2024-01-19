@@ -31,17 +31,17 @@ afterEach(() => {
 
 - in order to execute the test, add the following section to your `package.json`
 
-```````
+```
 {
     "scripts" : {
         "test": "vitest"
     }
 }
-``````
+```
 
 - write the following to the file `vite.config.js`
 
-````
+```
 test: {
 
      globals:true,
@@ -50,30 +50,19 @@ test: {
 
   }
 
-  ````
-
+```
 
 ```
 ![](./public/img1.png)
 
 ```
 
-
-
 - add new file `App.test.jsx` (don`t write "js", write "jsx")
-
 
 - (Don`t forget) npm test
 
-
-
 ## Screen View
-
 
 ![](./public/img2.png)
 
-
 ![](./public/img3.png)
-
-
-```````
